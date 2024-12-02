@@ -61,6 +61,7 @@ class Flx3DView extends FlxView3D {
 			case "md2": new MD2Parser();
 			case "md5": new MD5MeshParser();
 			case "awd": new AWDParser();
+			case "fbx": new FBXParser();
 			default:	new OBJParser();
 		}, (event:Asset3DEvent) -> {
 			if (event.asset != null && event.asset.assetType == Asset3DType.MESH) {
