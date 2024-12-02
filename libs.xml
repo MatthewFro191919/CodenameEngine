@@ -15,7 +15,7 @@
 	<lib name="hxvlc" version="1.9.3" skipDeps="true" />
 
 	<!-- Documentation and other features -->
-	<git name="away3d" url="https://github.com/FNF-CNE-Devs/away3d" />
+	<git name="away3d" url="https://github.com/MatthewFro191919/away3d" />
 	<!-- <lib name="dox" /> -->
 	<lib name="format" />
 	<lib name="markdown" />
